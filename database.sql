@@ -33,3 +33,5 @@ CREATE TABLE `order_items` (
   CONSTRAINT `fk_products_order_item` FOREIGN KEY (`product_id`) REFERENCES `products` (`ID`) ON DELETE CASCADE ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+
+
